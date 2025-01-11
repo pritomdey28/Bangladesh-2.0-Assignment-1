@@ -152,6 +152,9 @@ nav .nav-button:hover {
 /* pillars section end */
 
 /* vision section start */
+.vision {
+    margin-bottom: 32px;
+}
 .details h2 {
     font-size: 40px;
     font-weight: 700;
@@ -170,13 +173,16 @@ nav .nav-button:hover {
 
 .vision-color-cards {
     display: flex;
+    justify-content: space-between;
+}
+
+.vision-color-cards .color-card-1 {
     padding: 32px;
-    gap: 24px;
 }
 
 .vision-color-cards .color-card-1 {
     background-color: #5490F5;
-
+    border-radius: 16px;
 }
 
 .vision-color-cards .color-card-img {
@@ -184,6 +190,69 @@ nav .nav-button:hover {
 }
 
 .vision-color-cards .color-card-details {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0e;
+    opacity: 80%;
+    margin-bottom: 16px;
+}
 
+.vision-color-cards .color-card-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    line-height: 24px;
+    margin-bottom: 32px;
+    width: 346px;
+}
+.vision-color-cards .color-btn {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #5490F5;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+}
+
+.vision-color-cards .color-card-2 {
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-color-cards .color-btn2 {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #09A15C;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+}
+
+.vision-color-cards .color-card-3 { 
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-color-cards .color-btn3 {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFC239;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
 }
 /* vision section end */
+
+/* details part start */
+
+
+/* details part end */
