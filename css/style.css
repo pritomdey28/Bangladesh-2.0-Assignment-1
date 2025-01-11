@@ -155,14 +155,14 @@ nav .nav-button:hover {
 .vision {
     margin-bottom: 32px;
 }
-.details h2 {
+.vision-details h2 {
     font-size: 40px;
     font-weight: 700;
     color: #0e0e0e;
     margin-bottom: 24px;
 }
 
-.details p {
+.vision-details p {
     font-size: 16px;
     font-weight: 400;
     color: #0e0e0e;
@@ -181,7 +181,7 @@ nav .nav-button:hover {
 }
 
 .vision-color-cards .color-card-1 {
-    background-color: #5490F5;
+    background-color: #d5e1f5;
     border-radius: 16px;
 }
 
@@ -215,8 +215,17 @@ nav .nav-button:hover {
     border: none;
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
+    transition: .5s;
+    overflow: hidden;
+    position: relative;
 }
 
+.vision-color-cards .color-btn:hover {
+    background-color: transparent;
+    border: 1px solid #5490F5;
+    color: #5490F5;
+    position: absolute;
+}
 .vision-color-cards .color-card-2 {
     background-color: #C6E4D6;
     border-radius: 16px;
@@ -232,12 +241,23 @@ nav .nav-button:hover {
     border: none;
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
+    transition: .5s;
+    overflow: hidden;
+    position: relative;
+}
+
+.vision-color-cards .color-btn2:hover {
+    background-color: transparent;
+    border: 1px solid #09A15C;
+    color: #09A15C;
+    position: absolute;
 }
 
 .vision-color-cards .color-card-3 { 
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 32px;
+    
 }
 
 .vision-color-cards .color-btn3 {
@@ -249,10 +269,60 @@ nav .nav-button:hover {
     border: none;
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
+    transition: .5s;
+    overflow: hidden;
+    position: relative;
+
 }
+
+
+.vision-color-cards .color-btn3:hover {
+    background-color: transparent;
+    border: 1px solid #FFC239;
+    color: #FFC239;
+    position: absolute;
+}
+
 /* vision section end */
 
 /* details part start */
+.details {
+    margin-bottom: 80px;
+    background-image: url("../assets/quote-bg.png");
+    background-position-x: 25px;
+    background-position-y: 20px;
+    background-repeat: no-repeat;;
+    background-color: #ffffff;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
 
+.details p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0e0e0e;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+
+.details h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0e0e0e;
+    opacity: 80%;
+    margin-bottom: 4px;
+    line-height: 24px;
+}
+
+.details h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 60%;
+}
 
 /* details part end */
