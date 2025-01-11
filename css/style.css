@@ -72,7 +72,7 @@ nav .nav-button:hover {
 }
 
 .hero-section .hero-section-details .hero-section-subtitle {
-    font-size: 57px;
+    font-size: 56px;
     font-weight: 700;
     color: #0e0e0e;
     width: 622px;
@@ -150,3 +150,40 @@ nav .nav-button:hover {
     width: 254px;
 }
 /* pillars section end */
+
+/* vision section start */
+.details h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+
+.details p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-color-cards {
+    display: flex;
+    padding: 32px;
+    gap: 24px;
+}
+
+.vision-color-cards .color-card-1 {
+    background-color: #5490F5;
+
+}
+
+.vision-color-cards .color-card-img {
+    margin-bottom: 25px;
+}
+
+.vision-color-cards .color-card-details {
+
+}
+/* vision section end */
