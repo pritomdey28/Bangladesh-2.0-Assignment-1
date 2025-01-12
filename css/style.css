@@ -130,7 +130,7 @@ nav .nav-button:hover {
     justify-content: space-between;
 }
 
-.card {
+.cards {
     padding: 24px;
     border-radius: 16px;
     box-sizing: border-box;
@@ -139,18 +139,18 @@ nav .nav-button:hover {
     background: rgb(255, 255, 255);
 }
 
-.card .card-image {
+.cards .card-image {
     margin-bottom: 24px;
 }
 
-.card .card-title {
+.cards .card-title {
     font-size: 20px;
     font-weight: 700px;
     color: #0e0e0e;
     margin-bottom: 12px;
 }
 
-.card .card-detail {
+.cards .card-detail {
     font-size: 16px;
     font-weight: 400;
     color: #0e0e0e;
@@ -511,4 +511,127 @@ tbody th {
     color: #006a50;
     position: absolute;
 }
+
 /* news section end */
+
+/* donate section start */
+.donate {
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.donate-details {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.donate-details h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+
+.donate-details p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    line-height: 24px;
+}
+
+.donate-cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    margin-bottom: 32px;
+    height: 128px; 
+}
+
+.card {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+    opacity: 80%;
+    background-color: #ffffff;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    transition: .5s;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card:hover {
+    background-color: transparent;
+    border: 1px solid #006A50;
+    color: #006A50;
+}
+
+.card2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+    opacity: 80%;
+    background-color: #C6E4D6;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+    transition: .5s;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card2:hover {
+    background-color: transparent;
+    color: #0e0e0e;
+}
+
+form {
+    text-align: center;
+    width: 1232px;
+    height: 64px;
+    margin-left: 200px;
+    background-color: #ffffff;
+}
+
+form .form {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 30%;
+    border: none;
+    text-align: center;
+    padding: 20px 422.5px;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 32px;
+    margin-left: 735px;
+}
+/* donate section end */
