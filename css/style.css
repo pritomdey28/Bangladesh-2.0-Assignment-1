@@ -9,6 +9,14 @@
 
 body {
     background-color: #f5f5f5;
+    
+}
+
+header {
+    margin: 0 160px 0 160px;
+}
+
+main {
     margin: 0 160px 0 160px;
 }
 
@@ -21,7 +29,7 @@ nav {
     margin-bottom: 24px;
 }
 
-nav .nav-title {
+.nav-title {
     font-size: 32px;
     font-weight: 700;
     margin-top: 7px;
@@ -29,7 +37,7 @@ nav .nav-title {
     color: #006a50;
 }
 
-nav .nav-title span {
+.nav-title span {
     color: red;
 }
 
@@ -128,6 +136,7 @@ nav .nav-button:hover {
 .pillars .card-section {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .cards {
@@ -714,3 +723,34 @@ form {
     opacity: 70%;
 }
 /* subscribe section end */
+
+/* footer section start */
+footer {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.footer-nav {
+    text-align: center;
+    padding: 50px 689px 32px 689px;
+}
+
+footer hr {
+    color: #0e0e0e;
+    opacity: 10%;
+    width: 1122px;
+    justify-content: center;
+    margin: 32px 239px 32px 350px;
+}
+
+.footer-icons {
+    text-align: center;
+    padding: 0 740px 50px 740px;
+    justify-content: space-between;
+}
+
+.footer-icons img {
+    margin-left: 23px;
+}
+/* footer section end */
