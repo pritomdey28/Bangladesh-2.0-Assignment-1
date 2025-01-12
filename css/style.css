@@ -26,6 +26,11 @@ nav .nav-title {
     font-weight: 700;
     margin-top: 7px;
     margin-bottom: 44px;
+    color: #006a50;
+}
+
+nav .nav-title span {
+    color: red;
 }
 
 nav .nav-button {
@@ -65,10 +70,13 @@ nav .nav-button:hover {
 .hero-section .hero-section-details .hero-section-title {
     font-size: 24px;
     font-weight: 500;
-    color: #0e0e0e;
-    opacity: 50%;
+    color: #006A50;
     margin-bottom: 16px;
     margin-top: 117px;
+}
+
+.hero-section .hero-section-details .hero-section-title span {
+    color: red;
 }
 
 .hero-section .hero-section-details .hero-section-subtitle {
@@ -406,3 +414,101 @@ tbody th {
 
 /* opinion section end */
 
+/* news section start */
+.news {
+    height: 1406px;
+    margin-bottom: 80px;
+}
+
+.news-detail h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+
+.news-detail p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.view-news-card {
+    display: inline-block;
+}
+
+.news-card {
+    display: flex;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.news-card-image {
+    padding-right: 32px;
+}
+
+.news-card-details {
+    padding-top: 8px;
+}
+
+.news-card-details h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0e0e0e;
+    margin-bottom: 12px;
+}
+
+.news-card-details .news-img {
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+
+.news-card-details .date-time {
+    display: flex;
+    gap: 12px;
+}
+
+.news-card-details .date-time h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    margin-bottom: 12px;
+}
+
+.news-card-details .news-details {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.news-card-details .news-btn {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006a50;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.news-card-details .news-btn:hover {
+    background-color: transparent;
+    border: 1px solid #006a50;
+    color: #006a50;
+    position: absolute;
+}
+/* news section end */
